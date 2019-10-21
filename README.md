@@ -1,38 +1,62 @@
+# The Hackathon app
 
-# LifeSports Challlenge and Hackathon
+Languages used to make the project.
 
-### About Us
+-   React.js
+-   Node.js
 
+npm packages used.
 
-### Build Components
+-   express
+-   concurrently
 
-### Usage
+## Quick Start
 
-```js
+# step 1
 
+npm install in main folder and in both client and server folders
+
+```sh
+$ npm install
 ```
 
-#### Challenge Instructions
+```sh
+$ cd server
+$ npm install
+```
 
-The challenge requirements for this week are as follows:
+and
 
-1. Complete the API endpoints in the LifeSports Express server. Note that all MongoDB functions must use the mongoose data model that is provides
+```sh
+$ cd client
+$ npm install
+```
 
-2. Refactor this code to work with your MongoDB Atlas database. You should update your .env file so that you can use either mongodb locally on on Atlas
+# step 2
 
-3. Deploy your app to Heroku
+To start the project run npm start in the main folder
 
-4. Submit the link to your professionally composed GitHub acct with the Link to your working app by Monday, Oct 21 at 5pm. The github acct should have the link to your live heroku app
+```sh
+$ npm start
+```
 
-The APIs will be tested and the github accts reviewed to determine the number of points earned n the challenge submission
+### or
 
-#### Hackathon Challenge
+To start the project run npm start in server folder in one terminal and npm start in client folder in another terminal.
 
-1. Use the working version of your LifeSports app from the Challenge to go the next level!
+```sh
+$ cd server
+$ npm start
+```
 
-2. Be creative! Develop a new and more engaging UI for your 'workout tracker' and deliver an app that will captivate the LifeSports' coaches!
+and
 
-3. Each submission should include an updated UI, with updates, as required, to the mongoose data model, api server and integrations. All Submissions must be deployed with a professionally composed github repo and a live working app on Heroku
+````sh
+$ cd client
+$ npm start
+```vff
 
-4. The deadline for all submissions in Thursday, Oct 24 at 5pm
+# Author
 
+-   Arnaud Karambizi https://github.com/arnaudkarambizi
+````
